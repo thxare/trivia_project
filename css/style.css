@@ -53,6 +53,8 @@
     border-radius: 11px;
     padding: 6.3px 40px;
     border:2px solid #02aa00;
+    margin: 200px;
+    position: static;
 }
 .next:hover{
     border: 2px solid #02aa00;  
@@ -84,4 +86,8 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+.questions{
+    margin: 60px;
 }
