@@ -23,10 +23,10 @@
 }
 
 #btn_start:hover{
-    border: 2px solid #02aa00;  
+ 
     transition: 200ms all; 
-    font-size: 22px;
-    background-color: #47007f;
+    background-color: #614092;
+    text-decoration: underline;
     
 }
 #input_name{
@@ -50,10 +50,11 @@
 }
 .next{
     display: none;
+    position: fixed;
     border-radius: 11px;
     padding: 6.3px 40px;
     border:2px solid #02aa00;
-    margin: 200px;
+    margin-top: 200px;
     position: static;
 }
 .next:hover{
