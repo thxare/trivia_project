@@ -5,11 +5,12 @@ $(function () {
 
     const loadData = async () => {
         try {
-            const url = `https://trivia.willfry.co.uk/api/questions?categories=movies&limit=20`
+            const url = `https://the-trivia-api.com/api/questions?categories=movies&limit=20`
             const res = await fetch(url);
             const data = await res.json();
             listadoPreguntasMovies(data);
             listadoRespuestas(data);
+            console.log(data)
         } catch (err) {
             console.error(err);
         }

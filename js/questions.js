@@ -1,12 +1,12 @@
 
 'use strict'
-// function bringMovies() {
-//     fetch('https://trivia.willfry.co.uk/api/questions?categories=movies&limit=20')
-//         .then(res => res.json())
-//         .then(data => {
-//             console.log(data)
-//         });
-// };
+function bringMovies() {
+     fetch('https://trivia.willfry.co.uk/api/questions?categories=movies&limit=20')
+         .then(res => res.json())
+         .then(data => {
+             console.log(data)
+         });
+ };
 function bringMusic() {
     fetch('https://trivia.willfry.co.uk/api/questions?categories=music&limit=20')
         .then(res => res.json())
